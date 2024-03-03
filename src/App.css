@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+}
+
+.chat-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.chat-header {
+  background-color: #343a40;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+.chat-messages {
+  flex: 1;
+  overflow-y: auto;
+  padding: 10px;
+}
+
+.my-message {
+  text-align: right;
+  margin-bottom: 5px;
+}
+
+.other-message {
+  text-align: left;
+  margin-bottom: 5px;
+}
+
+.typing-indicator {
+  color: #6c757d;
+}
+
+.chat-input {
+  padding: 10px;
+  background-color: #f8f9fa;
+}
